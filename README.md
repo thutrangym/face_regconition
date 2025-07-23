@@ -16,31 +16,8 @@ Nguồn webcam trực tiếp
 
 📁 Cấu trúc thư mục
 
+<img width="1175" height="604" alt="image" src="https://github.com/user-attachments/assets/6dc61865-6f8c-44f6-9030-039795485e5e" />
 
-├── data/
-│   ├── train/            # Video gốc huấn luyện theo từng người
-│   └── video/            # Các video khác để kiểm tra
-│
-├── dataset/
-│   ├── train/            # Ảnh khuôn mặt trích xuất từ video (tập huấn luyện)
-│   └── val/              # Tập kiểm tra (validation)
-│
-├── notebook/
-│   ├── face_recognition_face_net.ipynb     # Nhận diện bằng FaceNet
-│   ├── face_regconition_cnn.ipynb          # Huấn luyện & nhận diện bằng CNN
-│   └── face_regconition_LBPH.ipynb         # Nhận diện bằng OpenCV LBPH
-│
-├── output/
-│   ├── output_facenet.mp4
-│   ├── output_video_cnn.mp4
-│   └── webcam.mp4         # Video kết quả sau khi nhận diện
-│
-├── face_cnn_model.keras    # Mô hình CNN đã huấn luyện
-├── haarcascade_frontalface_default.xml     # Mô hình phát hiện mặt của OpenCV
-├── label_map.pkl           # File ánh xạ label và tên người
-├── trainer.yml             # Cấu hình huấn luyện LBPH (nếu dùng)
-├── Trump_test.mp4          # Video đầu vào test
-├── README.md               # File mô tả này
 ⚙️ Cách hoạt động
 Trích xuất dữ liệu
 
